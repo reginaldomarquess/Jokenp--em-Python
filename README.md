@@ -1,2 +1,2 @@
 # Jokenpô em Python
- Jogo do Jokenpô
+ Resolução de um exercício na linguagem de programação Python
