@@ -7,11 +7,13 @@ while True:
     # Nessa linha eu fiz o computador puxar os "itens" que estavam entre parênteses (Pedra, Papel, Tesoura) ao invés de "0 a 2"
     # Itens {itens} na posição computador [computador] = {itens[computador]}
     # print(f'O computador escolheu {itens[computador]}')
+    print('======================================================')
     print('Jogo do Jokenpô!!\nO computador irá jogar com você. Tente vencê-lo!')
     print('''Suas opções:
     [0] Pedra
     [1] Papel
     [2] Tesoura''')
+    print('======================================================')
 
     jogador = int(input('Qual é a sua jogada? '))
     if jogador not in [0, 1, 2]:
